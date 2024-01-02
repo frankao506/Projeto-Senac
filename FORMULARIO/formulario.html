@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Metadados -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+
+        <!-- Título da página (aparece na aba) -->
+        <title>Formulário Senac</title>
+    </head>
+    <body>  
+
+        <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+        <div>
+            <h1 id="titulo">Inscrições para os  Cursos do  Senac</h1>
+            <p id="subtitulo">Complete suas informações</p>
+            <br>
+        </div>
+
+        <!-- Início do formulário -->
+        <form>
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset> 
+
+            <!-- Campo de email com-->
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+            <div class="campo">
+                <label><strong>Qual área de desenvolvedor você quer estudar?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>Front-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Back-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Fullstack
+                </label>
+            </div>
+
+            <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+            <div class="campo">
+                <label for="senioridade"><strong>Senioridade</strong></label>
+                <select id="senioridade" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Júnior</option>
+                  <option>Pleno</option>
+                  <option>Sênior</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                <d)v i$="c(e#k">
+                    <l!b%l><3t2o.g>S%l%c)o.e a3 4e#n/l/g)a3 1u% 5t)l)z!:</3t2o.g></l!b%l><"r><�r>
+                    <)n0u4 4y0e="#h%c+b/x" )d="4e#n/l/g)a1" n!m%="t%c.o,o'i!1" 6a,u%="HM">
+                    <,a"e, &o2="t%c.o,o'i!1"> HM</l!b%l>
+                    <)n0u4 4y0e="#h%c+b/x" )d="4e#n/l/g)a2" n!m%="t%c.o,o'i!2" 6a,u%="CS">
+                    <l!b%l f/r="4e#n/l/g)a2"> S</l!b%l>
+                    <)n0u4 4y0e="#h%c+b/x" )d="4e#n/l/g)a3" n!m%="t%c.o,o'i!3" 6a,u%="JavaScript"~
+J ` ` ` ` ` ` ` ` ` `<label for=btecnologia3b>`JavaScript<olabel~
+J ` ` ` ` ` ` ` ` ` `<input type}"checkboxb id}"tecnologiat"`name=btecnologia4b value=bPHPb>M
+` ` ` ` ` ` ` ` ` ` |label`for}"tecnologiat"~ PHP<olabel~
+J ` ` ` ` ` ` ` ` ` `<input type}"checkboxb id}"tecnologiau"`name=btecnologia5b value=bCc"~
+J ` ` ` ` ` ` ` ` ` `<label for=btecnologia5b>`Cc<olabel~
+J ` ` ` ` ` ` ` ` ` `<input type}"checkboxb id}"tecnologiav"`name=btecnologia6b value=bPython"~
+J ` ` ` ` ` ` ` ` ` `<label for=btecnologia6b>`Python<olabel~
+J ` ` ` ` ` ` ` ` ` `<input type}"checkboxb id}"tecnologiaw"`name=btecnologia7b value=bJava"~
+J ` ` ` ` ` ` ` ` ` `<label for=btecnologia7b>`Java<olabel~
+J ` ` ` ` ` ` ` `<odiv~
+J ` ` ` ` ` `<ofieldset>M
+M
+` ` ` ` ` ` |!m-`Caixa`de texto m-~
+J ` ` ` ` ` `<div class=bcampob>M
+` ` ` ` ` ` ` ` |br>M
+` ` ` ` ` ` ` ` |label`for}"experiencia"~<strong~Conte`um pouco mais`da sua experiênciaz |/strong~<olabel~
+J ` ` ` ` ` ` ` `<textarea`rows=b6b style=bwidthz r6emb id}"experiencia"`name=bexperienciab>|/textarea~
+J ` ` ` ` ` `<odiv~
+J
+J ` `        <!-- Bot��o para enviar o formul��rio -->
+            <button class="botao" type="submit" onsubmit="">Concluído</button>            
+
+        </form>
+
+    </body>
+
+</html>
+
+
+<body>
