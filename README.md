@@ -1,1 +1,1 @@
-Este projeto foi desenvolvio ainda enquanto cusrsava Front-end pelo Senac
+Este projeto foi desenvolvio ainda enquanto cursava Front-End pelo Senac.
